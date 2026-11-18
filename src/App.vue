@@ -2,6 +2,9 @@
 
 <template>
   <v-app>
+    <v-app-bar title="Map App">
+      <template v-slot:prepend></template>
+    </v-app-bar>
     <v-main>
       <router-view v-slot="{ Component }">
         <v-fade-transition hide-on-leave>
